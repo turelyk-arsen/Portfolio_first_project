@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #e3e3e3;
+}
+
+/* header  */
+#header {
+  display: flex;
+  background: white;
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#header div {
+  width: 50%;
+  text-align: center;
+}
+
+#header div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header div:first-of-type {
+  border-right: 3px solid rgba(83, 97, 99, 0.6);
+}
+
+header h2 {
+  color: #686868;
+  font-family: "DM Sans", sans-serif;
+  font-size: 6em;
+  line-height: 1;
+  font-weight: 500;
+}
+
+header p {
+  color: rgba(83, 97, 99, 0.6);
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 0.025rem;
+  width: calc(100% + 0.025rem);
+  font-size: 1.125em;
+  line-height: 1.875;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+header a {
+  color: rgba(73, 73, 73, 0.6);
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 0.025rem;
+  /* width: calc(100% + 0.025rem); */
+  font-size: 1.125em;
+  line-height: 1.875;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: rgb(0, 55, 255);
+}
+
+header li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  background-color: #e8f5f7;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+/* main  */
+main {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+main article {
+  width: 25%;
+  padding: 20px;
+  border-right: 3px solid rgba(83, 97, 99, 0.6);
+  margin: 20px;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  gap: 20px;
+  padding: 20px;
+}
+
+main section div {
+  display: grid;
+  gap: 10px;
+  height: auto;
+  max-height: 17.5rem;
+
+  /* padding: 10px 10px; */
+  /* display: block;
+  flex-shrink: 1; */
+  /* height: auto;
+  max-height: 17.5rem;
+  object-fit: cover;
+  object-position: center; */
+  /* margin: 0;
+  max-width: 100%;
+  vertical-align: top;
+  width: auto; */
+}
+main section img {
+  /* height: auto; */
+  height: 17.5rem;
+  width: 27.5rem;
+}
+.item1 {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+.item1 {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+/* .item1 {
+  flex: 0 0 100px;
+}
+
+.item2 {
+  flex-grow: ;
+} */
