@@ -168,7 +168,15 @@ main section div.grid-item a:hover {
 .item4 {
   grid-column: 1/4;
   grid-row: 3;
-  background: url(img/header.png);
+  background: url(img/header_my.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item5 {
+  grid-column: 4/5;
+  grid-row: 3;
+  background: url(img/header.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
