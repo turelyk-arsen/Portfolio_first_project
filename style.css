@@ -168,6 +168,9 @@ main section div.grid-item a:hover {
 .item6 {
   background: url(img/header.jpg);
 }
+.item8 {
+  background: url(img/Bg.png);
+}
 
 @media screen and (min-width: 576px) {
   #header {
@@ -242,6 +245,10 @@ main section div.grid-item a:hover {
   .item6 {
     grid-column: 1/3;
     grid-row: 4;
+  }
+  .item8 {
+    grid-column: 1/5;
+    grid-row: 5;
   }
 }
 
