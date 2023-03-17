@@ -163,12 +163,16 @@ main section div.grid-item a:hover {
 }
 .item5 {
   background: url(img/Screenshot_1.jpg);
+  border: 3px solid lightgray;
+
 }
 .item6 {
   background: url(img/header.jpg);
 }
 .item7 {
   background: url(img/Untitled.png);
+  border: 3px solid lightgray;
+
 }
 .item8 {
   background: url(img/Bg.png);
@@ -176,8 +180,12 @@ main section div.grid-item a:hover {
 .item9 {
   background: url(img/goals\ &\ wishes.jpg);
 }
+.item10 {
+  background: url(img/New\ Bitmap\ Image.jpg);
+  border: 3px solid lightgray;
+}
 
-#message9, #message7 {
+#message9, #message7, #message10 {
   display: none;
   background-color: #ffbbb8;
   color: #03539c;
@@ -189,7 +197,7 @@ main section div.grid-item a:hover {
   top: 0;
   width: 100%;
 }
-#message9 span, #message7 span {
+#message9 span, #message7 span, #message10 span {
   color: #023b70;
   font-size: 1.4em;
 }
@@ -275,6 +283,10 @@ main section div.grid-item a:hover {
   }
   .item9 {
     grid-column: 1/2;
+    grid-row: 6;
+  }
+  .item10 {
+    grid-column: 2/3;
     grid-row: 6;
   }
 }
