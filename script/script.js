@@ -5,3 +5,7 @@ $('.item9').hover(function () {
 $('.item7').hover(function () {
     $('#message7').slideDown(1000);
 });
+
+$('.item10').hover(function () {
+    $('#message10').slideDown(1000);
+});
