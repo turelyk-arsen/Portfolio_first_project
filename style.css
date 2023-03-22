@@ -45,6 +45,7 @@ header p {
   line-height: 1.875;
   font-weight: 400;
   padding: 20px;
+  text-align: justify;
 }
 
 ul {
@@ -78,7 +79,12 @@ header li {
   padding: 5px 20px;
   margin: 10px;
 }
-
+header img {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.389);
+}
 /* main  */
 main {
   background-color: white;
