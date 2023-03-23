@@ -35,6 +35,7 @@ header h2 {
   font-size: 3em;
   line-height: 1;
   font-weight: 500;
+  margin-top: 10px;
 }
 
 header p {
@@ -67,7 +68,9 @@ header a:hover {
   text-decoration: underline;
   color: rgb(0, 55, 255);
 }
-
+header li:first-of-type {
+  margin-top: 20px;
+}
 header li {
   display: flex;
   justify-content: space-between;
@@ -84,6 +87,10 @@ header img {
   height: 250px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.389);
+  margin: 10px 0;
+}
+#fotoTablet {
+  display: none;
 }
 /* main  */
 main {
@@ -178,7 +185,6 @@ main section div.grid-item a:hover {
 .item7 {
   background: url(img/Untitled.png);
   border: 3px solid lightgray;
-
 }
 .item8 {
   background: url(img/Bg.png);
@@ -191,7 +197,7 @@ main section div.grid-item a:hover {
   border: 3px solid lightgray;
 }
 
-#message9, #message7, #message10 {
+#message9, #message7, #message10, #message6 {
   display: none;
   background-color: #ffbbb8;
   color: #03539c;
@@ -203,7 +209,7 @@ main section div.grid-item a:hover {
   top: 0;
   width: 100%;
 }
-#message9 span, #message7 span, #message10 span {
+#message9 span, #message7 span, #message10 span, #message6 span {
   color: #023b70;
   font-size: 1.4em;
 }
@@ -217,7 +223,12 @@ main section div.grid-item a:hover {
     border-radius: 15px;
     padding: 20px;
   }
-
+  #fotoMobile {
+  display: none;
+}
+#fotoTablet {
+  display: inline-flex;
+}
   #header div {
     width: 50%;
     text-align: center;
