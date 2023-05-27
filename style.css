@@ -162,10 +162,10 @@ main section div.grid-item a:hover {
   background-color: #ececec;
 }
 
-.item1 {
+.item11 {
   background: url(img/hamburger.jpg);
 }
-.item2 {
+.item12 {
   background: url(img/game.jpg);
 }
 .item3 {
@@ -177,7 +177,6 @@ main section div.grid-item a:hover {
 .item5 {
   background: url(img/Screenshot_1.jpg);
   border: 3px solid lightgray;
-
 }
 .item6 {
   background: url(img/header.jpg);
@@ -195,6 +194,19 @@ main section div.grid-item a:hover {
 .item10 {
   background: url(img/New\ Bitmap\ Image.jpg);
   border: 3px solid lightgray;
+}
+.item1 {
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+.item1 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 
 #message9, #message7, #message10, #message6 {
@@ -265,12 +277,9 @@ main section div.grid-item a:hover {
   }
 
   .item1 {
-    grid-column: 1/3;
+    grid-column: 1/5;
     grid-row: 1;
-  }
-  .item2 {
-    grid-column: 3/5;
-    grid-row: 1;
+    /* padding-bottom: 56.25%; */
   }
   .item3 {
     grid-column: 1/5;
@@ -305,6 +314,14 @@ main section div.grid-item a:hover {
   .item10 {
     grid-column: 2/3;
     grid-row: 6;
+  }
+  .item11 {
+    grid-column: 1/3;
+    grid-row: 7;
+  }
+  .item12 {
+    grid-column: 3/5;
+    grid-row: 7;
   }
 }
 
@@ -351,11 +368,7 @@ main section div.grid-item a:hover {
   }
 
   .item1 {
-    grid-column: 1/3;
-    grid-row: 1;
-  }
-  .item2 {
-    grid-column: 3/5;
+    grid-column: 1/5;
     grid-row: 1;
   }
   .item3 {
@@ -373,5 +386,14 @@ main section div.grid-item a:hover {
   .item6 {
     grid-column: 1/3;
     grid-row: 4;
+  }
+  
+  .item11 {
+    grid-column: 1/3;
+    grid-row: 7;
+  }
+  .item12 {
+    grid-column: 3/5;
+    grid-row: 7;
   }
 }
