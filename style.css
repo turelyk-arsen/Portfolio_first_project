@@ -195,6 +195,9 @@ main section div.grid-item a:hover {
   background: url(img/New\ Bitmap\ Image.jpg);
   border: 3px solid lightgray;
 }
+.item13 {
+  background: url(img/React_2.jpg);
+}
 .item {
   position: relative;
   width: 100%;
@@ -326,6 +329,10 @@ main section div.grid-item a:hover {
   .item12 {
     grid-column: 3/5;
     grid-row: 7;
+  }
+  .item13 {
+    grid-column: 1/3;
+    grid-row: 8;
   }
 }
 
